@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;1,100&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+html {
+    font-size: 62.5%;
+    font-family: "Roboto", sans-serif;
+  }
+ body {
+     background-image:url(https://st2.depositphotos.com/2778263/12211/i/950/depositphotos_122111800-stock-photo-wood-table-top-as-house.jpg);
+background-repeat:no-repeat;
+background-size: cover;
+    }
+header {
+    display: flex;
+    justify-content:flex-start;
+    top: 0;
+    align-items: center;
+    float:left;
+}
+
+.wel {
+    font-family: roboto;
+    font-size: 40px;
+    color: yellow;
+    width: 300px;
+    height: 200px;
+    animation-name:inherit;
+    animation-duration: 4s;
+}
+#search{
+ margin-left: 100%;
+ margin-bottom: 0%;
+}
+.ph {
+ width:50px;
+height:50px;
+}
+
+h1 {
+    text-align: center;
+    font-size: xx-large;
+    font-family:;
+    color: rgb(5, 2, 22);
+}
+
+
+ .logo {
+    padding-left: 50%;
+    margin-block: 10;
+    width: 100px;
+    height: 100px;
+    padding-bottom: 40%;
+} */
+
+.container {
+    position: absolute;
+    top: 180px;
+    width: 90%;
+    margin-left: 60px;
+    box-shadow: 0 0 10px;
+    color: tomato;
+}
+
+.btn-count {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    box-shadow: 0 10px 20px;
+    margin-top: 20px;
+    border-radius: 40px;
+    margin-right: 20px;
+    align-items: center;
+    transform: translate(70px -50%);
+}
+
+.btn-count button {
+    outline: none;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 27px;
+}
+
+table {
+    margin: 20px 0px;
+    width: 100%;
+    color: black;
+}
+
+td {
+    height: 100px;
+    text-align: center;
+    width: 200px;
+    border-top: 1px solid #d2d8d2;
+}
+
+img {
+    width: 200px;
+    height: 170px;
+    padding-right: 20%;
+    margin-top: 0px;
+}
+
+.plus:hover {
+    cursor: pointer;
+    background: #292626;
+}
+
+.minus:hover {
+    cursor: pointer;
+    background: #0e0d0d;
+}
